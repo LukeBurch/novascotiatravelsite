@@ -1,0 +1,374 @@
+.top_header{
+    background-color: #4BA4F2;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    text-rendering: optimizeSpeed;
+    border: rgb(15, 71, 242);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 100%;
+}
+
+header{
+    background-color: #0095ff;
+    width: 97%;
+    height: 100px;
+    text-align: center;
+    border: 8px solid rgb(15, 71, 242);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 200%;
+    
+}
+
+main{
+    background-color: #ffffff;
+    width: 100%;
+    height: 1100px;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.center_mid{
+    background-color: #7127f2;
+    width: 100%;
+    height: 100px;
+    color: rgb(127, 255, 195);
+    text-align: center;
+}
+
+.map_box{
+    background-color: #6a6a6a;
+    width: 100%;
+    height: 1000px;
+    color: rgb(131, 255, 127);
+    text-align: center;
+}
+
+footer{
+    background-color: #4ba4f2;
+    width: 100%;
+    height: 20px;
+    color: chartreuse;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.world-map {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+}
+
+.world-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    text-align: center;
+    color: #000000;
+    margin: 2em 0;
+    border: #0000ff;
+    border-radius: 1em;
+}
+
+.title p {
+max-width: 500px;
+margin: 1em auto;
+line-height: 27px;
+}
+
+.pin{
+    background: #0000ff;
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+}
+
+.pin::before {
+    content: '';
+    background: #00fbff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation:
+        pulse 1.3s ease-in-out infinite;
+
+}
+
+.pin span {
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 3em;
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+}
+
+.wolfville {
+    top: 54%;
+    left: 30.3%;
+}
+
+.annapolis_royal {
+    top: 57%;
+    left: 20%;
+}
+
+.halifax {
+    top: 64%;
+    left: 41%;
+}
+
+@keyframes pulse {
+    100% {
+        opacity: 0;
+        transform: 
+            translate(-50%, -50%)
+            scale(2.5);
+    }
+}
+
+/* Image Boxes for page: About Nova Scotia */
+.img_box_1_ANS {
+    margin-right: 79em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 388px;
+    height: 242px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/* Text Boxes for page: About Nova Scotia */
+.box_text_1_ANS  {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(0, 0, 255);
+    margin-top: -15em;
+    margin-left: 26em;
+    margin-right: 1em;
+    margin-bottom: 10em;
+    color: #000000;
+}
+
+.box_text_2_ANS {
+    border: 4px solid rgb(0, 0, 255);
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 800px;
+    margin-top: -25em;
+    margin-left: 47em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+/* Image Boxes for page: Holiday Info */
+.img_box_1_HI{
+    border: 4px solid rgb(0, 0, 255);
+    width: 461px;
+    height: 316px;
+    margin-top: 1em;
+    margin-right: 26em;
+    margin-bottom: 1em;
+}
+
+/* Image Boxes for page: Holiday Info */
+.box_text_1_HI{
+    border: 4px solid rgb(0, 0, 255);
+    width: 461px;
+    height: 280px;
+    margin-top: 1em;
+    margin-left: 0em;
+    margin-right: 26em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+.box_text_2_HI{
+    border: 4px solid rgb(0, 0, 255);
+    width: 461px;
+    height: 200px;
+    margin-top: -36.5em;
+    margin-left: 30em;
+    margin-right: 26em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+.box_text_3_HI{
+    border: 4px solid rgb(0, 0, 255);
+    width: 500px;
+    height: 800px;
+    margin-top: -13.8em;
+    margin-left: 75em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    color: #000000;
+}
+
+/* Image Boxes for page: What You Can Do There */
+.img_box_1_WYCDT {
+    border: 4px solid rgb(0, 0, 255);
+    width: 340px;
+    height: 242px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 26em;
+    margin-bottom: 1em;
+}
+
+.img_box_2_WYCDT{
+    margin-right: 79em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 340px;
+    height: 242px;
+    margin-top: -16em;
+    margin-left: 46.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.img_box_3_WYCDT {
+    margin-right: 79em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 365px;
+    height: 244px;
+    margin-top: -16em;
+    margin-left: 90em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/* Text Boxes for page: What You Can Do There */
+.box_text_1_WYCDT{
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 26em;
+    margin-bottom: 1em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 340px;
+    height: 180px;
+    color: #000000;
+}
+
+.box_text_2_WYCDT{
+    margin-top: -12.5em;
+    margin-left: 46.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 340px;
+    height: 160px;
+    color: #000000;
+}
+
+.box_text_3_WYCDT{
+    margin-top: -11em;
+    margin-left: 91em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 340px;
+    height: 160px;
+    color: #000000;
+}
+
+/* Image Boxes for page: What Food There Is */
+.img_box_1_WFTI {
+    margin-right: 79em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 189px;
+    height: 234px;
+    margin-top: 2em;
+    margin-left: 13em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.img_box_2_WFTI {
+    margin-right: 79em;
+    border: 4px solid rgb(0, 0, 255);
+    width: 189px;
+    height: 234px;
+    margin-top: -16em;
+    margin-left: 48em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+/* Text Boxes for page: What Food There Is */
+.box_text_1_WFTI {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 245px;
+    border: 4px solid rgb(0, 0, 255);
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 9.5em;
+    margin-bottom: 15em;
+    color: #000000;
+}
+
+.box_text_2_WFTI {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 210px;
+    border: 4px solid rgb(0, 0, 255);
+    margin-top: -30.5em;
+    margin-right: 1em;
+    margin-left: 44em;
+    margin-bottom: 15em;
+    color: #000000;
+}
+
+.box_text_3_WFTI {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 895px;
+    border: 4px solid rgb(0, 0, 255);
+    margin-top: -43em;
+    margin-left: 75em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    color: #000000;
+}
